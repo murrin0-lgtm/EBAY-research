@@ -1,0 +1,94 @@
+EBAY LAB 10 | Opening/valuation date: 2025-12-31 | FY2026-FY2030
+Source assumptions: lab10_notes.md; implementation judgments: ebay_proforma_model_notes.md
+Marketplace model: no separate inventory/floor-plan financing; customer funds are ring-fenced.
+
+INCOME STATEMENT (USD millions)
+Line                                   FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+Revenue                              11,544.00    12,005.76    12,485.99    12,985.43    13,504.85
+Cogs                                  3,295.76     3,427.59     3,564.69     3,707.28     3,855.57
+Gross Profit                          8,248.24     8,578.17     8,921.30     9,278.15     9,649.27
+Sga                                   3,735.68     3,885.11     4,040.51     4,202.13     4,370.22
+Product Development                   1,708.51     1,776.85     1,847.93     1,921.84     1,998.72
+Transaction Losses                      415.58       432.21       449.50       467.48       486.17
+Amortization                             24.00        24.00        24.00        24.00        24.00
+Impairment                                0.00         0.00         0.00         0.00         0.00
+Operating Income                      2,364.46     2,460.00     2,559.36     2,662.70     2,770.17
+Interest                                269.84       259.84       249.84       239.84       229.84
+Pretax                                2,094.62     2,200.16     2,309.52     2,422.86     2,540.33
+Tax                                     418.92       440.03       461.90       484.57       508.07
+Net Income                            1,675.70     1,760.13     1,847.62     1,938.29     2,032.26
+Depreciation is embedded in the expense ratios above; its schedule appears in cash flow.
+
+BALANCE SHEET (USD millions)
+Line                                   FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+Cash                                  1,637.26     1,509.26     1,479.68     1,547.29     1,712.32
+Investments                           3,819.00     3,819.00     3,819.00     3,819.00     3,819.00
+Customer Receivable                   1,331.20     1,384.45     1,439.83     1,497.42     1,557.32
+Ppe                                   1,463.00     1,570.51     1,666.90     1,756.59     1,842.62
+Other Assets                          9,286.44     9,267.06     9,247.86     9,228.85     9,210.05
+Inventory                                 0.00         0.00         0.00         0.00         0.00
+Assets                               17,536.90    17,550.28    17,653.27    17,849.15    18,141.31
+Debt                                  6,496.00     6,246.00     5,996.00     5,746.00     5,496.00
+Customer Payable                      1,331.20     1,384.45     1,439.83     1,497.42     1,557.32
+Other Liabilities                     4,969.00     4,969.00     4,969.00     4,969.00     4,969.00
+Revolver                                  0.00         0.00         0.00         0.00         0.00
+Floor                                     0.00         0.00         0.00         0.00         0.00
+Liabilities                          12,796.20    12,599.45    12,404.83    12,212.42    12,022.32
+Equity                                4,740.70     4,950.83     5,248.45     5,636.73     6,118.99
+Liabilities Equity                   17,536.90    17,550.28    17,653.27    17,849.15    18,141.31
+
+CASH FLOW AND FCFE (USD millions)
+Line                                   FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+Net Income                            1,675.70     1,760.13     1,847.62     1,938.29     2,032.26
+Depreciation                            421.00       460.33       494.16       524.49       552.71
+Amortization                             24.00        24.00        24.00        24.00        24.00
+Impairment                                0.00         0.00         0.00         0.00         0.00
+Working Capital                           4.44         4.62         4.80         4.99         5.19
+Customer Receivable Cf                  -51.20       -53.25       -55.38       -57.59       -59.90
+Customer Payable Cf                      51.20        53.25        55.38        57.59        59.90
+Operating Cf                          2,116.26     2,239.84     2,360.97     2,481.78     2,603.77
+Investing Cf                           -546.00      -567.84      -590.55      -614.18      -638.74
+Repayment                               250.00       250.00       250.00       250.00       250.00
+Fcfe Before Revolver                  1,320.26     1,422.00     1,520.42     1,617.60     1,715.03
+Revolver Cf                              -0.00        -0.00        -0.00        -0.00        -0.00
+Fcfe                                  1,320.26     1,422.00     1,520.42     1,617.60     1,715.03
+Buyback                               1,000.00     1,000.00     1,000.00     1,000.00     1,000.00
+Dividends                               550.00       550.00       550.00       550.00       550.00
+Financing Cf                         -1,800.00    -1,800.00    -1,800.00    -1,800.00    -1,800.00
+Cash Change                            -229.74      -128.00       -29.58        67.60       165.03
+Opening Cash                          1,867.00     1,637.26     1,509.26     1,479.68     1,547.29
+Cash                                  1,637.26     1,509.26     1,479.68     1,547.29     1,712.32
+Working capital, repayment, buyback and dividends are shown as positive cash uses.
+
+CHECK BLOCK (all gaps in USD millions; checked at 0.000001 tolerance)
+FY2026E: BS / cash / equity gaps = 0.000000, 0.000000, 0.000000; cash floor PASS; revolver PASS
+FY2027E: BS / cash / equity gaps = 0.000000, 0.000000, 0.000000; cash floor PASS; revolver PASS
+FY2028E: BS / cash / equity gaps = 0.000000, 0.000000, 0.000000; cash floor PASS; revolver PASS
+FY2029E: BS / cash / equity gaps = 0.000000, 0.000000, 0.000000; cash floor PASS; revolver PASS
+FY2030E: BS / cash / equity gaps = 0.000000, 0.000000, 0.000000; cash floor PASS; revolver PASS
+PP&E, debt, revolver, other assets, customer funds and FCFE links: PASS
+
+DISCOUNTED FCFE VALUATION (USD millions unless stated)
+PV of positive forecast FCFE: 5,687.51
+Normalized terminal FCFE base: 1,965.03
+Terminal value at end of 2030: 26,855.44
+PV of terminal value: 16,675.11
+Opening cash above reserve: 867.00
+Investments at carrying-value proxy: 3,819.00
+Equity value: 27,048.62
+No second debt subtraction: FCFE already reflects interest and net borrowing.
+Terminal convention: refinance remaining debt after 2030; no perpetual debt paydown.
+Opening shares (millions): 449
+Value per share: $60.24
+Share of total equity value after 2030: 61.65%
+This is a 2025 year-end scenario, not a valuation rolled forward to today.
+
+DATED MARKET COMPARISON (saved quote; not refreshed automatically)
+The model says $60.24, the market says $107.83 on 2026-09-24 regular-session close (4:00 PM EDT); using 449 million shares for both equity-value comparisons, what differences in growth, risk or post-2025 developments explain the gap?
+Market equity on the common 449m-share basis: 48,415.67 million; this is not current reported market capitalization.
+Quote source: https://stockanalysis.com/stocks/ebay/history/
+
+FILING SOURCES
+2023 10-K: https://www.sec.gov/Archives/edgar/data/1065088/000106508824000036/ebay-20231231.htm
+2024 10-K: https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm
+2025 10-K: https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm
